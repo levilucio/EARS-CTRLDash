@@ -1,0 +1,12 @@
+## <!TextGen not found for 'org.iets3.ears.gxw.structure.ComplexEventDrivenUntil'!>## <!TextGen not found for 'org.iets3.ears.gxw.structure.ComplexEventDrivenUntil'!>## <!TextGen not found for 'org.iets3.ears.gxw.structure.ComplexEventDrivenUntil'!>## When reset button is pressed , the indicator pupil shall turn off
+[] (reset_button_is_pressed -> indicator_pupilturn_off)
+
+## When reset button is pressed , the indicator high school shall turn off
+[] (reset_button_is_pressed -> indicator_high_schoolturn_off)
+
+## When reset button is pressed , the indicator profesor shall turn off
+[] (reset_button_is_pressed -> indicator_profesorturn_off)
+
+
+INPUT indicator_high_school_is_off, indicator_professor_is_off, indiccator_pupil_is_off, high_school_button_is_pressed, professor_button_0_is_pressed, professor_button_1_is_pressed, pupil_button_0_or_1_is_pressed, reset_button_is_pressed
+OUTPUT indicator_pupilturn_off, indicator_high_schoolturn_off, indicator_high_schoolblink, indicator_pupilblink, indicator_profesorblink, indicator_profesorturn_off
