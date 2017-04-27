@@ -24,4 +24,4 @@
 
 
 INPUT one_minute_timer_expires, two_minute_timer_expires, start_button_is_pressed, liquid_level_1_is_reached, liquid_level_2_is_reached, emergency_button_is_pressed
-OUTPUT two_minute_timerstart, valve_2open, one_minute_timerstart, stirring_motorstart, valve_1open, valve_2close, valve_0close, valve_1close, stirring_motorstop, valve_0open
+OUTPUT valve_1open, valve_1close, stirring_motorstart, one_minute_timerstart, stirring_motorstop, valve_2close, valve_0close, valve_2open, valve_0open, two_minute_timerstart

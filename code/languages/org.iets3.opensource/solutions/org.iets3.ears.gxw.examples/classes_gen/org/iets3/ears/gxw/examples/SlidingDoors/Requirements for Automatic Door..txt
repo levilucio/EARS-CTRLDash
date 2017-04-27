@@ -12,4 +12,4 @@
 
 
 INPUT object_detected, opening_limit_reached, closing_limit_reached, timer_expires
-OUTPUT dooropen, doorclose, counterstart_countdown
+OUTPUT dooropen, counterstart_countdown, doorclose

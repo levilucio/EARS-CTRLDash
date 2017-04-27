@@ -19,7 +19,7 @@ public class RequirementChunkPresentClass extends SpecificChecker {
   public List<SearchResult<ModelCheckerIssue>> checkModel(SModel model, ProgressMonitor progressContext) {
     final List<SearchResult<ModelCheckerIssue>> results = ListSequence.fromList(new ArrayList<SearchResult<ModelCheckerIssue>>());
     if (ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x5d97a5a8692b865bL, "org.iets3.ears.gxw.structure.RequirementChunk"))).isEmpty()) {
-      SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.flow.dashboard.structure.DashboardHintDisplayer"))).first(), "There is no Requirement Chunk to work with at present", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
+      SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.process.dashboard.structure.DashboardHintDisplayer"))).first(), "There is no Requirement Chunk to work with at present", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
     }
 
     return results;

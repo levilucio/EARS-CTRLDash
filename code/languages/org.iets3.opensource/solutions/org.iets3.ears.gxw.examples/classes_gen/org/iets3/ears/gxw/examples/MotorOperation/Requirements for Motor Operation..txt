@@ -15,4 +15,4 @@
 
 
 INPUT start_button_is_pressed, ten_second_timer_expires, five_second_timer_expires, stop_button_pressed
-OUTPUT oil_motorstart, five_second_timerstart, ten_second_timerstart, auxilary_motorstart, main_motorstart
+OUTPUT oil_motorstart, ten_second_timerstart, five_second_timerstart, main_motorstart, auxilary_motorstart

@@ -104,7 +104,7 @@ public final class populateFlowModel_Intention extends IntentionDescriptorBase i
               sModelInternal.addLanguage(MetaAdapterFactory.getLanguage(MetaIdFactory.langId(0xecea2a9218f4e3bL, 0xbadca524a5addb7cL), "org.iets3.flow.property"));
               sModelInternal.addLanguage(MetaAdapterFactory.getLanguage(MetaIdFactory.langId(0x102111329b5e427aL, 0x9b371c1f28794a5eL), "org.iets3.flow.dashboard"));
 
-              SLanguage propertyLanguage = LanguageUtility.getLanguageFromAbstractConcept(ListSequence.fromList(SNodeOperations.getNodeDescendants(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8f3L, 0x4312b5445d47f8f4L, "stateInstances"))).first(), MetaAdapterFactory.getConcept(0xc020a239d8654312L, 0xadc3cb4ab0a7a547L, 0x691240ff880dbb0aL, "org.iets3.flow.modelproperty.formulae.structure.AtomicProperty"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
+              SLanguage propertyLanguage = LanguageUtility.getLanguageFromAbstractConcept(ListSequence.fromList(SNodeOperations.getNodeDescendants(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8f3L, 0x4312b5445d47f8f4L, "stateInstances"))).first(), MetaAdapterFactory.getConcept(0xc020a239d8654312L, 0xadc3cb4ab0a7a547L, 0x691240ff880dbb0aL, "org.iets3.process.modelproperty.formulae.structure.AtomicProperty"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
                 public boolean accept(SNode it) {
                   return (SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x24b2bf7ce180eb54L, 0x24b2bf7ce180eb55L, "conceptDeclaration")) != null);
                 }
@@ -116,7 +116,7 @@ public final class populateFlowModel_Intention extends IntentionDescriptorBase i
               sModelInternal.addLanguage(propertyLanguage);
 
               sModelInternal.addModelImport(SModelRepository.getInstance().getModelDescriptor(propertyLanguage.getQualifiedName() + ".structure").getReference());
-              FlowChunk__BehaviorDescriptor.fixModuleImports_id5MdYwHWTJdG.invoke(node, ListSequence.fromList(SNodeOperations.getNodeDescendants(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8f3L, 0x4312b5445d47f8f4L, "stateInstances"))).first(), MetaAdapterFactory.getConcept(0xc020a239d8654312L, 0xadc3cb4ab0a7a547L, 0x691240ff880dbb0aL, "org.iets3.flow.modelproperty.formulae.structure.AtomicProperty"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
+              FlowChunk__BehaviorDescriptor.fixModuleImports_id5MdYwHWTJdG.invoke(node, ListSequence.fromList(SNodeOperations.getNodeDescendants(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8f3L, 0x4312b5445d47f8f4L, "stateInstances"))).first(), MetaAdapterFactory.getConcept(0xc020a239d8654312L, 0xadc3cb4ab0a7a547L, 0x691240ff880dbb0aL, "org.iets3.process.modelproperty.formulae.structure.AtomicProperty"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
                 public boolean accept(SNode it) {
                   return (SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x24b2bf7ce180eb54L, 0x24b2bf7ce180eb55L, "conceptDeclaration")) != null);
                 }
@@ -133,7 +133,7 @@ public final class populateFlowModel_Intention extends IntentionDescriptorBase i
         System.out.println("Going to copy....................");
 
         // copying useful properties  
-        SNode flow = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x3b5f775e0d415b00L, "org.iets3.flow.dashboard.structure.FlowData"));
+        SNode flow = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x3b5f775e0d415b00L, "org.iets3.process.dashboard.structure.FlowData"));
         SPropertyOperations.set(flow, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "FlowData");
 
         // keep track of which nodes from the flow definition are mapped into which nodes in the dashboard states 
@@ -144,7 +144,7 @@ public final class populateFlowModel_Intention extends IntentionDescriptorBase i
         // first create all the new states in the dashboard 
 
         for (SNode state : ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8f3L, 0x4312b5445d47f8f4L, "stateInstances")))) {
-          SNode stateDashboard = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, "org.iets3.flow.dashboard.structure.State"));
+          SNode stateDashboard = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, "org.iets3.process.dashboard.structure.State"));
           stateMap.put(state, stateDashboard);
           SLinkOperations.setTarget(stateDashboard, MetaAdapterFactory.getContainmentLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, 0x5337259791af7857L, "formula"), SNodeOperations.copyNode(SLinkOperations.getTarget(state, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8ebL, 0x4312b5445d48e926L, "propertyFormula"))));
           SPropertyOperations.set(stateDashboard, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), SPropertyOperations.getString(state, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
@@ -157,7 +157,7 @@ public final class populateFlowModel_Intention extends IntentionDescriptorBase i
           }
           if (ListSequence.fromList(SLinkOperations.getChildren(state, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8ebL, 0x11262ed91e9e6cf3L, "listOfNewNodes"))).isNotEmpty()) {
             for (SNode pointer : ListSequence.fromList(SLinkOperations.getChildren(state, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8ebL, 0x11262ed91e9e6cf3L, "listOfNewNodes")))) {
-              SNode dashboardNodePointer = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791af7864L, "org.iets3.flow.dashboard.structure.NodePointer"));
+              SNode dashboardNodePointer = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791af7864L, "org.iets3.process.dashboard.structure.NodePointer"));
               SLinkOperations.setTarget(dashboardNodePointer, MetaAdapterFactory.getReferenceLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791af7864L, 0x5337259791af7865L, "pointer"), SLinkOperations.getTarget(pointer, MetaAdapterFactory.getReferenceLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x11262ed91e9e6cf8L, 0x11262ed91ea1252dL, "conceptToBeCreated")));
               SLinkOperations.getChildren(stateDashboard, MetaAdapterFactory.getContainmentLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, 0x5337259791af7867L, "listOfPointer")).add(dashboardNodePointer);
               FlowChunk__BehaviorDescriptor.isAlreadyAdded_id18xeVvsJfYK.invoke(node, SLinkOperations.getTarget(dashboardNodePointer, MetaAdapterFactory.getReferenceLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791af7864L, 0x5337259791af7865L, "pointer")), (SModelInternal) SModelRepository.getInstance().getModelDescriptor(flowModelName));
@@ -173,13 +173,13 @@ public final class populateFlowModel_Intention extends IntentionDescriptorBase i
 
         for (SNode state : ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8f3L, 0x4312b5445d47f8f4L, "stateInstances")))) {
           for (SNode oldStatePointer : ListSequence.fromList(SLinkOperations.getChildren(state, MetaAdapterFactory.getContainmentLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x4312b5445d47f8ebL, 0x73258383c7215c91L, "nextStates")))) {
-            SNode nextPointer = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, "org.iets3.flow.dashboard.structure.StatePointer"));
+            SNode nextPointer = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, "org.iets3.process.dashboard.structure.StatePointer"));
             SLinkOperations.setTarget(nextPointer, MetaAdapterFactory.getReferenceLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, 0x73258383c7270021L, "nextStatePointer"), stateMap.get(SLinkOperations.getTarget(oldStatePointer, MetaAdapterFactory.getReferenceLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x73258383c7215c8bL, 0x73258383c7215c8cL, "flowStatePointer"))));
             SLinkOperations.setTarget(nextPointer, MetaAdapterFactory.getReferenceLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, 0xca878da6e6bd0e8L, "previousStatePointer"), stateMap.get(state));
-            SNode previousPointer = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, "org.iets3.flow.dashboard.structure.StatePointer"));
+            SNode previousPointer = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, "org.iets3.process.dashboard.structure.StatePointer"));
             SLinkOperations.setTarget(previousPointer, MetaAdapterFactory.getReferenceLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x73258383c7270020L, 0x73258383c7270021L, "nextStatePointer"), stateMap.get(state));
-            ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(stateMap.get(state), MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, "org.iets3.flow.dashboard.structure.State")), MetaAdapterFactory.getContainmentLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, 0x73258383c72e53c4L, "nextStates"))).addElement(nextPointer);
-            ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(stateMap.get(SLinkOperations.getTarget(oldStatePointer, MetaAdapterFactory.getReferenceLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x73258383c7215c8bL, 0x73258383c7215c8cL, "flowStatePointer"))), MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, "org.iets3.flow.dashboard.structure.State")), MetaAdapterFactory.getContainmentLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, 0x73258383c77c638aL, "previousStates"))).addElement(previousPointer);
+            ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(stateMap.get(state), MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, "org.iets3.process.dashboard.structure.State")), MetaAdapterFactory.getContainmentLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, 0x73258383c72e53c4L, "nextStates"))).addElement(nextPointer);
+            ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(stateMap.get(SLinkOperations.getTarget(oldStatePointer, MetaAdapterFactory.getReferenceLink(0xe8ac6d1264b24478L, 0xbf9a80cbf4ec8c16L, 0x73258383c7215c8bL, 0x73258383c7215c8cL, "flowStatePointer"))), MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, "org.iets3.process.dashboard.structure.State")), MetaAdapterFactory.getContainmentLink(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x5337259791ac255eL, 0x73258383c77c638aL, "previousStates"))).addElement(previousPointer);
           }
         }
 

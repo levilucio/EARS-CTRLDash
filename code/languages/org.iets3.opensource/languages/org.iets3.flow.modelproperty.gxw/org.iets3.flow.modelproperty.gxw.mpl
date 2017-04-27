@@ -9,7 +9,7 @@
   <generators />
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">10211132-9b5e-427a-9b37-1c1f28794a5e(org.iets3.flow.dashboard)</dependency>
+    <dependency reexport="false">10211132-9b5e-427a-9b37-1c1f28794a5e(org.iets3.process.dashboard)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)</dependency>
@@ -88,8 +88,8 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" version="0" />
     <module reference="7731a166-da1f-472e-a40a-2283f5e47dc5(org.iets3.ears.gxw)" version="0" />
-    <module reference="10211132-9b5e-427a-9b37-1c1f28794a5e(org.iets3.flow.dashboard)" version="0" />
     <module reference="3e3749e5-96c0-4132-8c4a-7309a74f9fd6(org.iets3.flow.modelproperty.gxw)" version="0" />
+    <module reference="10211132-9b5e-427a-9b37-1c1f28794a5e(org.iets3.process.dashboard)" version="0" />
   </dependencyVersions>
   <extendedLanguages />
 </language>

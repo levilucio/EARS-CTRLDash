@@ -32,7 +32,7 @@ public class AllGlossaryTermsUsedClass extends SpecificChecker {
 
     if ((nodeGlossaryChunk == null) || (nodeReqChunk == null)) {
 
-      SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.flow.dashboard.structure.DashboardHintDisplayer"))).first(), "There is no Glossary Chunk-Req Chunk pair to work with at present", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
+      SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.process.dashboard.structure.DashboardHintDisplayer"))).first(), "There is no Glossary Chunk-Req Chunk pair to work with at present", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
     } else {
       for (final SNode trigger : ListSequence.fromList(SLinkOperations.getChildren(nodeGlossaryChunk, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers")))) {
         Iterable<SNode> seq = ListSequence.fromList(SNodeOperations.getNodeDescendants(nodeReqChunk, MetaAdapterFactory.getConcept(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x333c641fcaa9839fL, "org.iets3.ears.gxw.structure.AtomicFormulaTr"), false, new SAbstractConcept[]{})).where(new IWhereFilter<SNode>() {
@@ -49,7 +49,7 @@ public class AllGlossaryTermsUsedClass extends SpecificChecker {
             return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0xe98cc5716ef655aL, 0x5d97a5a8692a5e10L, "text")).matches(SPropertyOperations.getString(trigger, MetaAdapterFactory.getProperty(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0xe98cc5716ef655aL, 0x5d97a5a8692a5e10L, "text")));
           }
         }))) {
-          SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.flow.dashboard.structure.DashboardHintDisplayer"))).first(), "Unused Trigger found in requirements", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
+          SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.process.dashboard.structure.DashboardHintDisplayer"))).first(), "Unused Trigger found in requirements", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
 
         }
       }
@@ -71,7 +71,7 @@ public class AllGlossaryTermsUsedClass extends SpecificChecker {
           }
         }))) {
 
-          SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.flow.dashboard.structure.DashboardHintDisplayer"))).first(), "Unused response found in requirements", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
+          SpecificChecker.addIssue(results, ListSequence.fromList(SModelOperations.roots(model, MetaAdapterFactory.getConcept(0x102111329b5e427aL, 0x9b371c1f28794a5eL, 0x20fc30679cdcee4aL, "org.iets3.process.dashboard.structure.DashboardHintDisplayer"))).first(), "Unused response found in requirements", ModelChecker.SEVERITY_ERROR, "FLOW language Custom Error", null);
 
         }
       }

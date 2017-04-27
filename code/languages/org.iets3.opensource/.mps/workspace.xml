@@ -7,15 +7,217 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3830bde-ea0f-44dd-ac09-ebf685d11757" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/generator/source_gen.caches/org/iets3/flow/modelproperty/gxw/generator/template/main/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/generator/source_gen.caches/org/iets3/flow/modelproperty/gxw/generator/template/main/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/generator/source_gen/org/iets3/flow/modelproperty/gxw/generator/template/main/QueriesGenerated.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/generator/source_gen/org/iets3/flow/modelproperty/gxw/generator/template/main/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/generator/template/main@generator.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/models/FlowModel.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/FlowModel/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/FlowModel/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/FlowModel/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/actions/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/actions/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/behavior/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/behavior/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/constraints/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/constraints/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/editor/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/editor/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/intentions/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/intentions/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/refactorings/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/refactorings/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/structure/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/structure/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/typesystem/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/typesystem/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/Language.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/actions/ActionAspectDescriptorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/actions/NodeCreationPropertyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/actions/QueriesGenerated.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/actions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/BehaviorAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/CopyProperty_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/FlowChunk_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/FlowChunk__BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/FlowStatePointer_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/FlowState_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/InformationString_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/NodeCreationProperty_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/PropertyExtender_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/constraints/ConstraintsAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/constraints/CopyProperty_Constraints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/CopyProperty_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/EditorAspectDescriptorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/FlowChunk_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/FlowStatePointer_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/FlowState_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/InformationString_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/NodeCreationProperty_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/intentions/IntentionsDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/intentions/populateFlowModel_Intention.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/intentions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/refactorings/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/ConceptPresentationAspectImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/StructureAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/typesystem/TypesystemDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/behavior/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/behavior/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/constraints/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/constraints/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/editor/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/editor/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/structure/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/structure/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/typesystem/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/process/modelproperty/formulae/typesystem/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/Language.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/AndPropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/AtomicProperty_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/BehaviorAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/BinaryPropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/ImplicationPropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/NotPropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/OrPropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/PropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/UnaryPropertyFormula_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/constraints/AtomicProperty_Constraints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/constraints/BinaryPropertyFormula_Constraints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/constraints/ConstraintsAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/AndPropertyFormula_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/AtomicProperty_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/EditorAspectDescriptorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/ImplicationPropertyFormula_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/NotPropertyFormula_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/OrPropertyFormula_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/structure/ConceptPresentationAspectImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/structure/StructureAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/typesystem/TypesystemDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/process/modelproperty/formulae/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/actions/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/actions/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/behavior/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/behavior/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/constraints/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/constraints/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/editor/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/editor/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/intentions/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/intentions/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/structure/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/structure/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/typesystem/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/typesystem/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/Language.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/actions/ActionAspectDescriptorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/actions/Populatefactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/actions/QueriesGenerated.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/actions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/BehaviorAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/DashboardHintDisplayer_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/DashboardHintDisplayer__BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/DashboardUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/FlowData_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/NodePointer_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/StatePointer_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/State_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/TableRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/behavior/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/constraints/ConstraintsAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/constraints/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/Arrow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/BoxColor_StyleSheet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/BoxVisulisation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/DashboardHintDisplayer_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/DashboardHintDisplayer_TabularView_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/DashboardHintDisplayer_Textual_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/DashboardHintDisplayer_TransformationMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/EditorAspectDescriptorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/FlowData_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/StatePointer_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/StatePointer_Textual_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/State_DirectedGraph_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/State_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/State_Textual_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/editor/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/intentions/IntentionsDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/intentions/calculate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/intentions/generateTransformationMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/intentions/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/ConceptPresentationAspectImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/FlowStateMode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/FlowStateMode_PropertySupport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/StructureAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/typesystem/TypesystemDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/typesystem/trace.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/source_gen.caches/org/iets3/process/core/instance/gxwmodel/dependencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/source_gen.caches/org/iets3/process/core/instance/gxwmodel/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/source_gen/org/iets3/process/core/instance/gxwmodel/trace.info" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/actions.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/actions.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/behavior.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/behavior.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/constraints.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/constraints.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/editor.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/editor.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/intentions.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/intentions.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/structure.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/structure.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/flow/core/typesystem.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/typesystem.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/refactorings.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/refactorings.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/org.iets3.flow.core.mpl" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/org.iets3.process.core.mpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/process/modelproperty/formulae/behavior.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/constraints.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/process/modelproperty/formulae/constraints.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/editor.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/process/modelproperty/formulae/editor.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/structure.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/process/modelproperty/formulae/structure.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/typesystem.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/process/modelproperty/formulae/typesystem.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/org.iets3.flow.modelproperty.formulae.mpl" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/org.iets3.process.modelproperty.formulae.mpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/actions.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/actions.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/behavior.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/behavior.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/constraints.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/constraints.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/editor.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/editor.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/intentions.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/intentions.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/structure.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/structure.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/typesystem.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/typesystem.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/languages/testLanguage/org.iets3.flow.dashboard.mpl" afterPath="$PROJECT_DIR$/languages/testLanguage/org.iets3.process.dashboard.mpl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/models/org/iets3/flow/core/instance/gxwmodel.mps" afterPath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/models/org/iets3/process/core/instance/gxwmodel.mps" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/org.iets3.flow.core.instance.msd" afterPath="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/org.iets3.process.core.instance.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/classes_gen/org/iets3/flow/core/intentions/populateFlowModel_Intention$IntentionImplementation.class" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/classes_gen/org/iets3/flow/core/intentions/populateFlowModel_Intention$IntentionImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/classes_gen/org/iets3/flow/core/intentions/trace.info" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/classes_gen/org/iets3/flow/core/intentions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/flow/core/generated" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/flow/core/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/flow/core/intentions/generated" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/flow/core/intentions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/flow/core/structure/generated" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/flow/core/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/flow/core/intentions/populateFlowModel_Intention.java" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/flow/core/intentions/populateFlowModel_Intention.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/flow/core/intentions/trace.info" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/flow/core/intentions/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/classes_gen/org/iets3/flow/modelproperty/gxw/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/classes_gen/org/iets3/flow/modelproperty/gxw/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/models/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/models/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/org.iets3.flow.modelproperty.gxw.mpl" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/org.iets3.flow.modelproperty.gxw.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen.caches/org/iets3/flow/modelproperty/gxw/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen.caches/org/iets3/flow/modelproperty/gxw/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen.caches/org/iets3/flow/modelproperty/gxw/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen.caches/org/iets3/flow/modelproperty/gxw/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/ActuatorDefinedClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/ActuatorDefinedClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/AllGlossaryTermsUsedClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/AllGlossaryTermsUsedClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/ComponentDefinedClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/ComponentDefinedClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/GlossaryErrorFreeClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/GlossaryErrorFreeClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/GlossaryisCreatedPropertyClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/GlossaryisCreatedPropertyClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/RequirementChunkPresentClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/RequirementChunkPresentClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/RequirementRealizableClass.java" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/RequirementRealizableClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/source_gen/org/iets3/flow/modelproperty/gxw/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/models/FlowModel.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/FlowModel.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/FlowModel/generated" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/FlowModel/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/models/org/iets3/ears/gxw/examples/ContainerFusingUpdated.mps" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/models/org/iets3/ears/gxw/examples/ContainerFusingUpdated.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen.caches/org/iets3/ears/gxw/examples/ContainerFusingUpdated/generated" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen.caches/org/iets3/ears/gxw/examples/ContainerFusingUpdated/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/ContainerFusingUpdated/Requirements For Liquid Mixer..txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/ContainerFusingUpdated/Requirements For Liquid Mixer..txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/MotorOperation/Requirements for Motor Operation..txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/MotorOperation/Requirements for Motor Operation..txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/QuizController/Requirement for Quiz Controller..txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/QuizController/Requirement for Quiz Controller..txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/SlidingDoors/Requirements for Automatic Door..txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/SlidingDoors/Requirements for Automatic Door..txt" />
     </list>
     <ignored path="org.iets3.opensource.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -166,7 +368,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -181,7 +383,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GXWProcess" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GXWProcess" pinned="false" current-in-tab="false">
         <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.gxwmodel/GXWProcess">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -193,7 +395,7 @@
                     <property name="caretXRelative" value="4" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" />
+                      <node node_reference="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.process.core.instance.gxwmodel)/6153926375008470427" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -202,7 +404,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -228,7 +430,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -275,7 +477,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -287,6 +489,65 @@
                 </enabledHints>
               </inspectorMemento>
               <node node_ref="r:133a945a-e3ad-4398-bb53-29e30f6c6928(org.iets3.flow.modelproperty.gxw.behavior)/6153926375010464595" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardHintDisplayer" pinned="false" current-in-tab="true">
+        <entry file="mps://node://org.iets3.flow.dashboard/org.iets3.flow.dashboard.structure/DashboardHintDisplayer">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="576" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570777" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570769" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570761" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                      <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570769" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+              <node node_ref="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" />
             </state>
           </provider>
         </entry>
@@ -323,7 +584,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -376,7 +637,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -413,7 +674,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -470,7 +731,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+              <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -812,7 +1073,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flow" />
+              <option name="myItemId" value="process" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -1014,42 +1275,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.coolingmodel/&lt;no name&gt;[CoolingBehaviorTable]" />
-    <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.coolingmodel/Cooling Controller Requirements">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="288" />
-                <property name="caretXRelative" value="248" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:19a41b7e-210a-408f-b767-7b11608be270(org.iets3.flow.core.instance.coolingmodel)/3618282025109465521" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:19a41b7e-210a-408f-b767-7b11608be270(org.iets3.flow.core.instance.coolingmodel)/3618282025109465521" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.coolingmodel/cool" />
     <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.coolingmodel/cool" />
     <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.coolingmodel/cool" />
     <entry file="mps://node://org.iets3.flow.core.instance/org.iets3.flow.core.instance.coolingmodel/Cool" />
@@ -2224,7 +2449,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2269,7 +2494,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2315,7 +2540,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2366,7 +2591,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2401,7 +2626,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2456,7 +2681,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2966,7 +3191,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2991,7 +3216,7 @@
                 <property name="caretXRelative" value="4" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" />
+                  <node node_reference="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.process.core.instance.gxwmodel)/6153926375008470427" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -3000,7 +3225,133 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:0fcdbf48-f4dd-4bc8-93c8-c78503677478(org.iets3.flow.core.instance.gxwmodel)/6153926375008470427" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.process.dashboard.editor)/8062167295371570771" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.flow.dashboard/org.iets3.flow.dashboard.structure/DashboardHintDisplayer">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="423" />
+                <property name="caretXRelative" value="180" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/8062167295371570777" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/8062167295371570769" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/8062167295371570761" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.flow.dashboard/org.iets3.flow.dashboard.structure/DashboardHintDisplayer">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="423" />
+                <property name="caretXRelative" value="180" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/8062167295371570777" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/8062167295371570769" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0" cellNumber="0" isInList="false">
+                  <node node_reference="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/8062167295371570761" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" saveSessionState="false" viewPositionX="0" viewPositionY="-7">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:6507158e-5ee7-4d5c-aed7-e600d1c8a360(org.iets3.flow.dashboard.editor)/5897470435556694818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.iets3.process.core.instance/org.iets3.process.core.instance.gxwmodel/DashboardHintDisplayer">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="-7">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />

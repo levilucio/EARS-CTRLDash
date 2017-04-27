@@ -3,8 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
-    <use id="c020a239-d865-4312-adc3-cb4ab0a7a547" name="org.iets3.flow.modelproperty.formulae" version="0" />
-    <use id="10211132-9b5e-427a-9b37-1c1f28794a5e" name="org.iets3.flow.dashboard" version="0" />
+    <use id="c020a239-d865-4312-adc3-cb4ab0a7a547" name="org.iets3.process.modelproperty.formulae" version="0" />
+    <use id="10211132-9b5e-427a-9b37-1c1f28794a5e" name="org.iets3.process.dashboard" version="0" />
     <use id="3e3749e5-96c0-4132-8c4a-7309a74f9fd6" name="org.iets3.flow.modelproperty.gxw" version="0" />
     <use id="7731a166-da1f-472e-a40a-2283f5e47dc5" name="org.iets3.ears.gxw" version="0" />
   </languages>
@@ -13,32 +13,32 @@
     <import index="q3w4" ref="r:9fc7e752-54e5-497f-97da-8e179a90760e(org.iets3.ears.gxw.structure)" />
   </imports>
   <registry>
-    <language id="c020a239-d865-4312-adc3-cb4ab0a7a547" name="org.iets3.flow.modelproperty.formulae">
-      <concept id="4439542802417923302" name="org.iets3.flow.modelproperty.formulae.structure.NotPropertyFormula" flags="ng" index="aRPxe" />
-      <concept id="4439542802417923288" name="org.iets3.flow.modelproperty.formulae.structure.UnaryPropertyFormula" flags="ng" index="aRPxK">
+    <language id="c020a239-d865-4312-adc3-cb4ab0a7a547" name="org.iets3.process.modelproperty.formulae">
+      <concept id="4439542802417923302" name="org.iets3.process.modelproperty.formulae.structure.NotPropertyFormula" flags="ng" index="aRPxe" />
+      <concept id="4439542802417923288" name="org.iets3.process.modelproperty.formulae.structure.UnaryPropertyFormula" flags="ng" index="aRPxK">
         <child id="2829711462938969999" name="arg" index="1y4i0q" />
       </concept>
-      <concept id="4439542802417923291" name="org.iets3.flow.modelproperty.formulae.structure.AndPropertyFormula" flags="ng" index="aRPxN" />
-      <concept id="4439542802417923285" name="org.iets3.flow.modelproperty.formulae.structure.BinaryPropertyFormula" flags="ng" index="aRPxX">
+      <concept id="4439542802417923291" name="org.iets3.process.modelproperty.formulae.structure.AndPropertyFormula" flags="ng" index="aRPxN" />
+      <concept id="4439542802417923285" name="org.iets3.process.modelproperty.formulae.structure.BinaryPropertyFormula" flags="ng" index="aRPxX">
         <child id="2829711462938969990" name="arg1" index="1y4i0j" />
         <child id="2829711462938969996" name="arg2" index="1y4i0p" />
       </concept>
-      <concept id="7571185389806664458" name="org.iets3.flow.modelproperty.formulae.structure.AtomicProperty" flags="ng" index="3x7ZJP">
+      <concept id="7571185389806664458" name="org.iets3.process.modelproperty.formulae.structure.AtomicProperty" flags="ng" index="3x7ZJP">
         <child id="3369881559473997964" name="property" index="2DkB7w" />
       </concept>
     </language>
-    <language id="10211132-9b5e-427a-9b37-1c1f28794a5e" name="org.iets3.flow.dashboard">
-      <concept id="8297182490505183264" name="org.iets3.flow.dashboard.structure.StatePointer" flags="ng" index="2O0Cez">
+    <language id="10211132-9b5e-427a-9b37-1c1f28794a5e" name="org.iets3.process.dashboard">
+      <concept id="8297182490505183264" name="org.iets3.process.dashboard.structure.StatePointer" flags="ng" index="2O0Cez">
         <reference id="8297182490505183265" name="nextStatePointer" index="2O0Cey" />
         <reference id="912111804093288680" name="previousStatePointer" index="1yKUwM" />
       </concept>
-      <concept id="4278269416858278656" name="org.iets3.flow.dashboard.structure.FlowData" flags="ng" index="Q7yLu">
+      <concept id="4278269416858278656" name="org.iets3.process.dashboard.structure.FlowData" flags="ng" index="Q7yLu">
         <child id="5996302761781590093" name="stateList" index="32A5Rq" />
       </concept>
-      <concept id="5996302761781590116" name="org.iets3.flow.dashboard.structure.NodePointer" flags="ng" index="32A5RN">
+      <concept id="5996302761781590116" name="org.iets3.process.dashboard.structure.NodePointer" flags="ng" index="32A5RN">
         <reference id="5996302761781590117" name="pointer" index="32A5RM" />
       </concept>
-      <concept id="5996302761781372254" name="org.iets3.flow.dashboard.structure.State" flags="ng" index="32AK39">
+      <concept id="5996302761781372254" name="org.iets3.process.dashboard.structure.State" flags="ng" index="32AK39">
         <property id="8297182490505019797" name="isStart" index="2O0g8m" />
         <property id="8297182490512160219" name="mode" index="2OHfpo" />
         <property id="8297182490513022918" name="isFinal" index="2OILL5" />
@@ -67,7 +67,7 @@
       <property role="32A5R2" value="Glossary is not present for the project. Please create a new glossary" />
       <property role="2O0g8m" value="true" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="1" />
       <node concept="aRPxe" id="3Xms3n6Pkws" role="32A5R0">
         <node concept="3x7ZJP" id="3Xms3n6Pkwt" role="1y4i0q">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
@@ -89,7 +89,7 @@
       <property role="32A5R2" value="Define at least one component to complete the actuator's definition" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3Xms3n6Pkwx" role="32A5R0">
         <node concept="3x7ZJP" id="3Xms3n6Pkwy" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
@@ -119,7 +119,7 @@
       <property role="32A5R2" value="Complete at least one actuator definition to start writing requirements" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="1" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3Xms3n6PkwC" role="32A5R0">
         <node concept="3x7ZJP" id="3Xms3n6PkwD" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
