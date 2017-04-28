@@ -1,6 +1,8 @@
 # EARS-CTRLDash
 An implementation of a process for assisting the user when writing requirements in EARS-CTRL
 
+video demo: 
+
 ## Install instructions
 
 1. Install MPS 3.4.3 (https://confluence.jetbrains.com/display/MPS/JetBrains+MPS+3.4+Download+Page)
