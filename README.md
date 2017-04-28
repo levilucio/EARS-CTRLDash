@@ -1,7 +1,7 @@
 # EARS-CTRLDash
 An implementation of a process for assisting the user when writing requirements in EARS-CTRL
 
-video demo: 
+Video demo: https://youtu.be/vzhUwjH8eLE
 
 ## Install instructions
 
