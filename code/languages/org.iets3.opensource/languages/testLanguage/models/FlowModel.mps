@@ -89,7 +89,7 @@
       <property role="32A5R2" value="Define at least one component to complete the actuator's definition" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="1" />
       <node concept="aRPxN" id="3MWlJajwLYL" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLYM" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
@@ -119,7 +119,7 @@
       <property role="32A5R2" value="Complete at least one actuator definition to start writing requirements" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3MWlJajwLYS" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLYT" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
@@ -149,7 +149,7 @@
       <property role="32A5R2" value="You can now start adding EARS requirements. Click here to create a requirements holder" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3MWlJajwLYZ" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLZ0" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$yOe2" resolve="ActuatorDefinedProperty" />
@@ -188,7 +188,7 @@
       <property role="32A5R2" value="Requirements are realizable but not all glossary items are covered" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3MWlJajwLZ6" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLZ7" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
@@ -234,7 +234,7 @@
       <property role="32A5R2" value="All glossary items are covered but the requirements are not realizable" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3MWlJajwLZj" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLZk" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
@@ -280,7 +280,7 @@
       <property role="32A5R2" value="The requirements are realizable and all glossary items are covered" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="true" />
-      <property role="2OHfpo" value="1" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3MWlJajwLZw" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLZx" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
@@ -326,7 +326,7 @@
       <property role="32A5R2" value="The requirements are not realizable and not all glossary items are covered" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="0" />
+      <property role="2OHfpo" value="2" />
       <node concept="aRPxN" id="3MWlJajwLZG" role="32A5R0">
         <node concept="3x7ZJP" id="3MWlJajwLZH" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />

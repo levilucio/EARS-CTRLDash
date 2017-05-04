@@ -13,6 +13,9 @@
     <file name="ConceptPresentationAspectImpl.java">
       <unit at="11,0,37,0" name="org.iets3.process.dashboard.structure.ConceptPresentationAspectImpl" />
     </file>
+    <file name="IconContainer.java">
+      <unit at="7,0,11,0" name="org.iets3.process.dashboard.structure.IconContainer" />
+    </file>
     <file name="StructureAspectDescriptor.java">
       <unit at="20,0,90,0" name="org.iets3.process.dashboard.structure.StructureAspectDescriptor" />
     </file>

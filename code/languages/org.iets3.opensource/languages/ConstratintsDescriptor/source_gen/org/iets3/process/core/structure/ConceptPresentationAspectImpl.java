@@ -10,7 +10,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private final ConceptPresentation props_CopyProperty = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_FlowChunk = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_FlowChunk = new ConceptPresentationBuilder().icon(IconContainer.RESOURCE_a0a0b).create();
   private final ConceptPresentation props_FlowState = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_FlowStatePointer = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_InformationString = new ConceptPresentationBuilder().create();

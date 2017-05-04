@@ -14,7 +14,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_BaseConnection = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_EventActor = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_GateDefinition = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_GateDescriptors = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_GateDescriptors = new ConceptPresentationBuilder().icon(IconContainer.RESOURCE_a0a0f).create();
   private final ConceptPresentation props_GenericEventActor = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_GlobalActor = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_GlobalInputActor = new ConceptPresentationBuilder().create();
@@ -23,7 +23,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_IfTBActor = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_IffActor = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_LogicalActor = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_ModelHolder = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_ModelHolder = new ConceptPresentationBuilder().icon(IconContainer.RESOURCE_a0a0o).create();
   private final ConceptPresentation props_OrActor = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_Port = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_ResActor = new ConceptPresentationBuilder().create();

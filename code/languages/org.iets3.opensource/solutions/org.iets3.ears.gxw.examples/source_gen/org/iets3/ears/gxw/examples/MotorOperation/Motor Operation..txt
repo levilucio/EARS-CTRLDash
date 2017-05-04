@@ -1,0 +1,18 @@
+## When start button is pressed , the oil motor shall start until stop button pressed
+[] (start_button_is_pressed -> (oil_motorstart W stop_button_pressed)
+
+## When start button is pressed , the ten second timer shall start
+[] (start_button_is_pressed -> ten_second_timerstart)
+
+## When ten second timer expires , the main motor shall start until stop button pressed
+[] (ten_second_timer_expires -> (main_motorstart W stop_button_pressed)
+
+## When ten second timer expires , the five second timer shall start
+[] (ten_second_timer_expires -> five_second_timerstart)
+
+## When five second timer expires , the auxilary motor shall start until stop button pressed
+[] (five_second_timer_expires -> (auxilary_motorstart W stop_button_pressed)
+
+
+INPUT start_button_is_pressed, ten_second_timer_expires, five_second_timer_expires, stop_button_pressed
+OUTPUT ten_second_timerstart, main_motorstart, oil_motorstart, five_second_timerstart, auxilary_motorstart

@@ -21,7 +21,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_BinaryFormulaTr = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_ComplexEventDrivenReq = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_ComplexEventDrivenUntil = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_GlossaryChunk = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_GlossaryChunk = new ConceptPresentationBuilder().icon(IconContainer.RESOURCE_a0a0m).create();
   private final ConceptPresentation props_Happens = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_HappensStable = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_NormalEventDrivenOptionalFeatReq = new ConceptPresentationBuilder().create();
@@ -35,7 +35,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private final ConceptPresentation props_OrFormulaTr = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_PropositionalFormulaSR = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_PropositionalFormulaTr = new ConceptPresentationBuilder().create();
-  private final ConceptPresentation props_RequirementChunk = new ConceptPresentationBuilder().create();
+  private final ConceptPresentation props_RequirementChunk = new ConceptPresentationBuilder().icon(IconContainer.RESOURCE_a0a0ab).create();
   private final ConceptPresentation props_RequirementTemplate = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_SystemName = new ConceptPresentationBuilder().create();
   private final ConceptPresentation props_SystemResponse = new ConceptPresentationBuilder().create();
