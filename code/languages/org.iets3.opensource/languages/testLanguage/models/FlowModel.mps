@@ -60,160 +60,160 @@
       </concept>
     </language>
   </registry>
-  <node concept="Q7yLu" id="3Xms3n6Pkwq">
+  <node concept="Q7yLu" id="3MWlJajwLYE">
     <property role="TrG5h" value="FlowDataRootNode" />
-    <node concept="32AK39" id="3Xms3n6Pkwr" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLYF" role="32A5Rq">
       <property role="TrG5h" value="GlossaryNotCreated" />
-      <property role="32A5R2" value="Glossary is not present for the project. Please create a new glossary" />
+      <property role="32A5R2" value="Glossary is not present for the project. Click here to create a new glossary" />
       <property role="2O0g8m" value="true" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="1" />
-      <node concept="aRPxe" id="3Xms3n6Pkws" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6Pkwt" role="1y4i0q">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxe" id="3MWlJajwLYG" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLYH" role="1y4i0q">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
-          <node concept="35c_gC" id="3Xms3n6Pkwu" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLYI" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
           </node>
         </node>
       </node>
-      <node concept="32A5RN" id="3Xms3n6Pkwv" role="32A5RK">
+      <node concept="32A5RN" id="3MWlJajwLYJ" role="32A5RK">
         <ref role="32A5RM" to="q3w4:7vMAitzBZN" resolve="GlossaryChunk" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxD" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6Pkww" resolve="Check for Component in the Glossary" />
-        <ref role="1yKUwM" node="3Xms3n6Pkwr" resolve="GlossaryNotCreated" />
+      <node concept="2O0Cez" id="3MWlJajwLZT" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLYK" resolve="Check for Component in the Glossary" />
+        <ref role="1yKUwM" node="3MWlJajwLYF" resolve="GlossaryNotCreated" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6Pkww" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLYK" role="32A5Rq">
       <property role="TrG5h" value="Check for Component in the Glossary" />
       <property role="32A5R2" value="Define at least one component to complete the actuator's definition" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6Pkwx" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6Pkwy" role="1y4i0j">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxN" id="3MWlJajwLYL" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLYM" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
-          <node concept="35c_gC" id="3Xms3n6Pkwz" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLYN" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
           </node>
         </node>
-        <node concept="aRPxe" id="3Xms3n6Pkw$" role="1y4i0p">
-          <node concept="3x7ZJP" id="3Xms3n6Pkw_" role="1y4i0q">
+        <node concept="aRPxe" id="3MWlJajwLYO" role="1y4i0p">
+          <node concept="3x7ZJP" id="3MWlJajwLYP" role="1y4i0q">
             <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
-            <node concept="35c_gC" id="3Xms3n6PkwA" role="2DkB7w">
+            <node concept="35c_gC" id="3MWlJajwLYQ" role="2DkB7w">
               <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxE" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6Pkwr" resolve="GlossaryNotCreated" />
+      <node concept="2O0Cez" id="3MWlJajwLZU" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLYF" resolve="GlossaryNotCreated" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxF" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6PkwB" resolve="Check for actuator definition in glossary" />
-        <ref role="1yKUwM" node="3Xms3n6Pkww" resolve="Check for Component in the Glossary" />
+      <node concept="2O0Cez" id="3MWlJajwLZV" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLYR" resolve="Check for actuator definition in glossary" />
+        <ref role="1yKUwM" node="3MWlJajwLYK" resolve="Check for Component in the Glossary" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6PkwB" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLYR" role="32A5Rq">
       <property role="TrG5h" value="Check for actuator definition in glossary" />
       <property role="32A5R2" value="Complete at least one actuator definition to start writing requirements" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6PkwC" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6PkwD" role="1y4i0j">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxN" id="3MWlJajwLYS" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLYT" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
-          <node concept="35c_gC" id="3Xms3n6PkwE" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLYU" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
           </node>
         </node>
-        <node concept="aRPxe" id="3Xms3n6PkwF" role="1y4i0p">
-          <node concept="3x7ZJP" id="3Xms3n6PkwG" role="1y4i0q">
+        <node concept="aRPxe" id="3MWlJajwLYV" role="1y4i0p">
+          <node concept="3x7ZJP" id="3MWlJajwLYW" role="1y4i0q">
             <ref role="35c_gD" to="hxma:5lB8QV$yOe2" resolve="ActuatorDefinedProperty" />
-            <node concept="35c_gC" id="3Xms3n6PkwH" role="2DkB7w">
+            <node concept="35c_gC" id="3MWlJajwLYX" role="2DkB7w">
               <ref role="35c_gD" to="hxma:5lB8QV$yOe2" resolve="ActuatorDefinedProperty" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxG" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6Pkww" resolve="Check for Component in the Glossary" />
+      <node concept="2O0Cez" id="3MWlJajwLZW" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLYK" resolve="Check for Component in the Glossary" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxH" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
-        <ref role="1yKUwM" node="3Xms3n6PkwB" resolve="Check for actuator definition in glossary" />
+      <node concept="2O0Cez" id="3MWlJajwLZX" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
+        <ref role="1yKUwM" node="3MWlJajwLYR" resolve="Check for actuator definition in glossary" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6PkwI" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLYY" role="32A5Rq">
       <property role="TrG5h" value="Check for glossary completenesss" />
-      <property role="32A5R2" value="create requirement chunk file" />
+      <property role="32A5R2" value="You can now start adding EARS requirements. Click here to create a requirements holder" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6PkwJ" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6PkwK" role="1y4i0j">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxN" id="3MWlJajwLYZ" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLZ0" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$yOe2" resolve="ActuatorDefinedProperty" />
-          <node concept="35c_gC" id="3Xms3n6PkwL" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLZ1" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$yOe2" resolve="ActuatorDefinedProperty" />
           </node>
         </node>
-        <node concept="3x7ZJP" id="3Xms3n6PkwM" role="1y4i0p">
+        <node concept="3x7ZJP" id="3MWlJajwLZ2" role="1y4i0p">
           <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
-          <node concept="35c_gC" id="3Xms3n6PkwN" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLZ3" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$qjWs" resolve="ComponentDefinedProperty" />
           </node>
         </node>
       </node>
-      <node concept="32A5RN" id="3Xms3n6PkwO" role="32A5RK">
+      <node concept="32A5RN" id="3MWlJajwLZ4" role="32A5RK">
         <ref role="32A5RM" to="q3w4:5QnDqxDaSpr" resolve="RequirementChunk" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxI" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6PkwB" resolve="Check for actuator definition in glossary" />
+      <node concept="2O0Cez" id="3MWlJajwLZY" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLYR" resolve="Check for actuator definition in glossary" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxJ" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6Pkxr" resolve="requirement not realizable with uncovered glossary terms" />
-        <ref role="1yKUwM" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
+      <node concept="2O0Cez" id="3MWlJajwLZZ" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLZF" resolve="Requirement not realizable with uncovered glossary terms" />
+        <ref role="1yKUwM" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxL" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6PkwP" resolve="Requirement realizable with uncovered glossary terms" />
-        <ref role="1yKUwM" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
+      <node concept="2O0Cez" id="3MWlJajwM01" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLZ5" resolve="Requirement realizable with uncovered glossary terms" />
+        <ref role="1yKUwM" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxN" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6Pkx2" resolve="Requirement not realizable with covered glossary terms" />
-        <ref role="1yKUwM" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
+      <node concept="2O0Cez" id="3MWlJajwM03" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLZi" resolve="Requirement not realizable with covered glossary terms" />
+        <ref role="1yKUwM" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6PkwP" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLZ5" role="32A5Rq">
       <property role="TrG5h" value="Requirement realizable with uncovered glossary terms" />
       <property role="32A5R2" value="Requirements are realizable but not all glossary items are covered" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6PkwQ" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6PkwR" role="1y4i0j">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxN" id="3MWlJajwLZ6" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLZ7" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
-          <node concept="35c_gC" id="3Xms3n6PkwS" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLZ8" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
           </node>
         </node>
-        <node concept="aRPxN" id="3Xms3n6PkwT" role="1y4i0p">
-          <node concept="3x7ZJP" id="3Xms3n6PkwU" role="1y4i0j">
+        <node concept="aRPxN" id="3MWlJajwLZ9" role="1y4i0p">
+          <node concept="3x7ZJP" id="3MWlJajwLZa" role="1y4i0j">
             <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
-            <node concept="35c_gC" id="3Xms3n6PkwV" role="2DkB7w">
+            <node concept="35c_gC" id="3MWlJajwLZb" role="2DkB7w">
               <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
             </node>
           </node>
-          <node concept="aRPxN" id="3Xms3n6PkwW" role="1y4i0p">
-            <node concept="3x7ZJP" id="3Xms3n6PkwX" role="1y4i0j">
+          <node concept="aRPxN" id="3MWlJajwLZc" role="1y4i0p">
+            <node concept="3x7ZJP" id="3MWlJajwLZd" role="1y4i0j">
               <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
-              <node concept="35c_gC" id="3Xms3n6PkwY" role="2DkB7w">
+              <node concept="35c_gC" id="3MWlJajwLZe" role="2DkB7w">
                 <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
               </node>
             </node>
-            <node concept="aRPxe" id="3Xms3n6PkwZ" role="1y4i0p">
-              <node concept="3x7ZJP" id="3Xms3n6Pkx0" role="1y4i0q">
+            <node concept="aRPxe" id="3MWlJajwLZf" role="1y4i0p">
+              <node concept="3x7ZJP" id="3MWlJajwLZg" role="1y4i0q">
                 <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
-                <node concept="35c_gC" id="3Xms3n6Pkx1" role="2DkB7w">
+                <node concept="35c_gC" id="3MWlJajwLZh" role="2DkB7w">
                   <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
                 </node>
               </node>
@@ -221,45 +221,45 @@
           </node>
         </node>
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxM" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
+      <node concept="2O0Cez" id="3MWlJajwM02" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxP" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6Pkxf" resolve="Requirement realizable with covered glossary terms" />
-        <ref role="1yKUwM" node="3Xms3n6PkwP" resolve="Requirement realizable with uncovered glossary terms" />
+      <node concept="2O0Cez" id="3MWlJajwM05" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLZv" resolve="Requirement realizable with covered glossary terms" />
+        <ref role="1yKUwM" node="3MWlJajwLZ5" resolve="Requirement realizable with uncovered glossary terms" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6Pkx2" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLZi" role="32A5Rq">
       <property role="TrG5h" value="Requirement not realizable with covered glossary terms" />
       <property role="32A5R2" value="All glossary items are covered but the requirements are not realizable" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6Pkx3" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6Pkx4" role="1y4i0j">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxN" id="3MWlJajwLZj" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLZk" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
-          <node concept="35c_gC" id="3Xms3n6Pkx5" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLZl" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
           </node>
         </node>
-        <node concept="aRPxN" id="3Xms3n6Pkx6" role="1y4i0p">
-          <node concept="3x7ZJP" id="3Xms3n6Pkx7" role="1y4i0j">
+        <node concept="aRPxN" id="3MWlJajwLZm" role="1y4i0p">
+          <node concept="3x7ZJP" id="3MWlJajwLZn" role="1y4i0j">
             <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
-            <node concept="35c_gC" id="3Xms3n6Pkx8" role="2DkB7w">
+            <node concept="35c_gC" id="3MWlJajwLZo" role="2DkB7w">
               <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
             </node>
           </node>
-          <node concept="aRPxN" id="3Xms3n6Pkx9" role="1y4i0p">
-            <node concept="3x7ZJP" id="3Xms3n6Pkxa" role="1y4i0p">
+          <node concept="aRPxN" id="3MWlJajwLZp" role="1y4i0p">
+            <node concept="3x7ZJP" id="3MWlJajwLZq" role="1y4i0p">
               <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
-              <node concept="35c_gC" id="3Xms3n6Pkxb" role="2DkB7w">
+              <node concept="35c_gC" id="3MWlJajwLZr" role="2DkB7w">
                 <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
               </node>
             </node>
-            <node concept="aRPxe" id="3Xms3n6Pkxc" role="1y4i0j">
-              <node concept="3x7ZJP" id="3Xms3n6Pkxd" role="1y4i0q">
+            <node concept="aRPxe" id="3MWlJajwLZs" role="1y4i0j">
+              <node concept="3x7ZJP" id="3MWlJajwLZt" role="1y4i0q">
                 <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
-                <node concept="35c_gC" id="3Xms3n6Pkxe" role="2DkB7w">
+                <node concept="35c_gC" id="3MWlJajwLZu" role="2DkB7w">
                   <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
                 </node>
               </node>
@@ -267,93 +267,93 @@
           </node>
         </node>
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxO" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
+      <node concept="2O0Cez" id="3MWlJajwM04" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxR" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6Pkxf" resolve="Requirement realizable with covered glossary terms" />
-        <ref role="1yKUwM" node="3Xms3n6Pkx2" resolve="Requirement not realizable with covered glossary terms" />
+      <node concept="2O0Cez" id="3MWlJajwM07" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLZv" resolve="Requirement realizable with covered glossary terms" />
+        <ref role="1yKUwM" node="3MWlJajwLZi" resolve="Requirement not realizable with covered glossary terms" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6Pkxf" role="32A5Rq">
+    <node concept="32AK39" id="3MWlJajwLZv" role="32A5Rq">
       <property role="TrG5h" value="Requirement realizable with covered glossary terms" />
       <property role="32A5R2" value="The requirements are realizable and all glossary items are covered" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="true" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6Pkxg" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6Pkxh" role="1y4i0j">
+      <property role="2OHfpo" value="1" />
+      <node concept="aRPxN" id="3MWlJajwLZw" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLZx" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
-          <node concept="35c_gC" id="3Xms3n6Pkxi" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLZy" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
           </node>
         </node>
-        <node concept="aRPxN" id="3Xms3n6Pkxj" role="1y4i0p">
-          <node concept="3x7ZJP" id="3Xms3n6Pkxk" role="1y4i0j">
+        <node concept="aRPxN" id="3MWlJajwLZz" role="1y4i0p">
+          <node concept="3x7ZJP" id="3MWlJajwLZ$" role="1y4i0j">
             <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
-            <node concept="35c_gC" id="3Xms3n6Pkxl" role="2DkB7w">
+            <node concept="35c_gC" id="3MWlJajwLZ_" role="2DkB7w">
               <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
             </node>
           </node>
-          <node concept="aRPxN" id="3Xms3n6Pkxm" role="1y4i0p">
-            <node concept="3x7ZJP" id="3Xms3n6Pkxn" role="1y4i0j">
+          <node concept="aRPxN" id="3MWlJajwLZA" role="1y4i0p">
+            <node concept="3x7ZJP" id="3MWlJajwLZB" role="1y4i0j">
               <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
-              <node concept="35c_gC" id="3Xms3n6Pkxo" role="2DkB7w">
+              <node concept="35c_gC" id="3MWlJajwLZC" role="2DkB7w">
                 <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
               </node>
             </node>
-            <node concept="3x7ZJP" id="3Xms3n6Pkxp" role="1y4i0p">
+            <node concept="3x7ZJP" id="3MWlJajwLZD" role="1y4i0p">
               <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
-              <node concept="35c_gC" id="3Xms3n6Pkxq" role="2DkB7w">
+              <node concept="35c_gC" id="3MWlJajwLZE" role="2DkB7w">
                 <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxQ" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6PkwP" resolve="Requirement realizable with uncovered glossary terms" />
+      <node concept="2O0Cez" id="3MWlJajwM06" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLZ5" resolve="Requirement realizable with uncovered glossary terms" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxS" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6Pkx2" resolve="Requirement not realizable with covered glossary terms" />
+      <node concept="2O0Cez" id="3MWlJajwM08" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLZi" resolve="Requirement not realizable with covered glossary terms" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxU" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6Pkxr" resolve="requirement not realizable with uncovered glossary terms" />
+      <node concept="2O0Cez" id="3MWlJajwM0a" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLZF" resolve="Requirement not realizable with uncovered glossary terms" />
       </node>
     </node>
-    <node concept="32AK39" id="3Xms3n6Pkxr" role="32A5Rq">
-      <property role="TrG5h" value="requirement not realizable with uncovered glossary terms" />
+    <node concept="32AK39" id="3MWlJajwLZF" role="32A5Rq">
+      <property role="TrG5h" value="Requirement not realizable with uncovered glossary terms" />
       <property role="32A5R2" value="The requirements are not realizable and not all glossary items are covered" />
       <property role="2O0g8m" value="false" />
       <property role="2OILL5" value="false" />
-      <property role="2OHfpo" value="2" />
-      <node concept="aRPxN" id="3Xms3n6Pkxs" role="32A5R0">
-        <node concept="3x7ZJP" id="3Xms3n6Pkxt" role="1y4i0j">
+      <property role="2OHfpo" value="0" />
+      <node concept="aRPxN" id="3MWlJajwLZG" role="32A5R0">
+        <node concept="3x7ZJP" id="3MWlJajwLZH" role="1y4i0j">
           <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
-          <node concept="35c_gC" id="3Xms3n6Pkxu" role="2DkB7w">
+          <node concept="35c_gC" id="3MWlJajwLZI" role="2DkB7w">
             <ref role="35c_gD" to="hxma:5lB8QV$fOGJ" resolve="GLossaryisCreatedProperty" />
           </node>
         </node>
-        <node concept="aRPxN" id="3Xms3n6Pkxv" role="1y4i0p">
-          <node concept="3x7ZJP" id="3Xms3n6Pkxw" role="1y4i0j">
+        <node concept="aRPxN" id="3MWlJajwLZJ" role="1y4i0p">
+          <node concept="3x7ZJP" id="3MWlJajwLZK" role="1y4i0j">
             <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
-            <node concept="35c_gC" id="3Xms3n6Pkxx" role="2DkB7w">
+            <node concept="35c_gC" id="3MWlJajwLZL" role="2DkB7w">
               <ref role="35c_gD" to="hxma:5lB8QV$pZcv" resolve="RequirementChunkPresentProperty" />
             </node>
           </node>
-          <node concept="aRPxN" id="3Xms3n6Pkxy" role="1y4i0p">
-            <node concept="aRPxe" id="3Xms3n6Pkxz" role="1y4i0j">
-              <node concept="3x7ZJP" id="3Xms3n6Pkx$" role="1y4i0q">
+          <node concept="aRPxN" id="3MWlJajwLZM" role="1y4i0p">
+            <node concept="aRPxe" id="3MWlJajwLZN" role="1y4i0j">
+              <node concept="3x7ZJP" id="3MWlJajwLZO" role="1y4i0q">
                 <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
-                <node concept="35c_gC" id="3Xms3n6Pkx_" role="2DkB7w">
+                <node concept="35c_gC" id="3MWlJajwLZP" role="2DkB7w">
                   <ref role="35c_gD" to="hxma:4MKUcPlSDcn" resolve="RequirementRealizable" />
                 </node>
               </node>
             </node>
-            <node concept="aRPxe" id="3Xms3n6PkxA" role="1y4i0p">
-              <node concept="3x7ZJP" id="3Xms3n6PkxB" role="1y4i0q">
+            <node concept="aRPxe" id="3MWlJajwLZQ" role="1y4i0p">
+              <node concept="3x7ZJP" id="3MWlJajwLZR" role="1y4i0q">
                 <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
-                <node concept="35c_gC" id="3Xms3n6PkxC" role="2DkB7w">
+                <node concept="35c_gC" id="3MWlJajwLZS" role="2DkB7w">
                   <ref role="35c_gD" to="hxma:p7uByp2AFH" resolve="AllGlossaryTermsUsed" />
                 </node>
               </node>
@@ -361,12 +361,12 @@
           </node>
         </node>
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxK" role="2Omu09">
-        <ref role="2O0Cey" node="3Xms3n6PkwI" resolve="Check for glossary completenesss" />
+      <node concept="2O0Cez" id="3MWlJajwM00" role="2Omu09">
+        <ref role="2O0Cey" node="3MWlJajwLYY" resolve="Check for glossary completenesss" />
       </node>
-      <node concept="2O0Cez" id="3Xms3n6PkxT" role="2O2X17">
-        <ref role="2O0Cey" node="3Xms3n6Pkxf" resolve="Requirement realizable with covered glossary terms" />
-        <ref role="1yKUwM" node="3Xms3n6Pkxr" resolve="requirement not realizable with uncovered glossary terms" />
+      <node concept="2O0Cez" id="3MWlJajwM09" role="2O2X17">
+        <ref role="2O0Cey" node="3MWlJajwLZv" resolve="Requirement realizable with covered glossary terms" />
+        <ref role="1yKUwM" node="3MWlJajwLZF" resolve="Requirement not realizable with uncovered glossary terms" />
       </node>
     </node>
   </node>

@@ -59,7 +59,7 @@
     </language>
   </registry>
   <node concept="2skrmn" id="7HbJNeua$NC">
-    <property role="TrG5h" value="Glossary For Motor Operation" />
+    <property role="TrG5h" value="Motor Operation" />
     <property role="$xNHY" value="liquid mixer controller" />
     <node concept="2uIZ38" id="7HbJNeua$NV" role="2skrmi">
       <property role="TrG5h" value="start switch" />
@@ -123,8 +123,8 @@
     </node>
   </node>
   <node concept="OJ2fN" id="1vCvjaRsl6j">
-    <property role="TrG5h" value="Requirements for Motor Operation" />
-    <ref role="9DKRw" node="7HbJNeua$NC" resolve="Glossary For Motor Operation" />
+    <property role="TrG5h" value="Motor Operation" />
+    <ref role="9DKRw" node="7HbJNeua$NC" resolve="Motor Operation" />
     <node concept="1QfkUo" id="1vCvjaRwkhI" role="OJ2fO">
       <property role="1hs7$j" value="Motor Controller" />
       <property role="eBQts" value="Req1" />

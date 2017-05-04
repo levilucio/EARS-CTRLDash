@@ -5,8 +5,8 @@
     <use id="33eb1b5b-ad96-4262-9112-684c487e01e0" name="org.iets3.graphicalLustre" version="0" />
     <use id="7731a166-da1f-472e-a40a-2283f5e47dc5" name="org.iets3.ears.gxw" version="0" />
     <use id="8ca79d43-eb45-4791-bdd4-0d6130ff895b" name="de.itemis.mps.editor.diagram.layout" version="0" />
-    <use id="10211132-9b5e-427a-9b37-1c1f28794a5e" name="org.iets3.flow.dashboard" version="0" />
-    <use id="c020a239-d865-4312-adc3-cb4ab0a7a547" name="org.iets3.flow.modelproperty.formulae" version="0" />
+    <use id="10211132-9b5e-427a-9b37-1c1f28794a5e" name="org.iets3.process.dashboard" version="0" />
+    <use id="c020a239-d865-4312-adc3-cb4ab0a7a547" name="org.iets3.process.modelproperty.formulae" version="0" />
   </languages>
   <imports>
     <import index="hxma" ref="r:afc3de6c-6429-4bb9-b26d-918b8ae8822c(org.iets3.flow.modelproperty.gxw.structure)" />
@@ -95,7 +95,7 @@
     </language>
   </registry>
   <node concept="2skrmn" id="1pRfBxTLTzD">
-    <property role="TrG5h" value="Glossary For Liquid Mixer" />
+    <property role="TrG5h" value="Liquid Mixer" />
     <property role="$xNHY" value="liquid mixer controller" />
     <node concept="otU$d" id="34ScOrO_opg" role="2skrmg">
       <property role="OJvIS" value="one minute timer expires" />
@@ -241,8 +241,8 @@
     </node>
   </node>
   <node concept="OJ2fN" id="1pRfBxTLTzE">
-    <property role="TrG5h" value="Requirements For Liquid Mixer" />
-    <ref role="9DKRw" node="1pRfBxTLTzD" resolve="Glossary For Liquid Mixer" />
+    <property role="TrG5h" value="Liquid Mixer" />
+    <ref role="9DKRw" node="1pRfBxTLTzD" resolve="Liquid Mixer" />
     <node concept="1cwdkO" id="1lmxzlaj6Hk" role="OJ2fO">
       <property role="1hs7$j" value="liquid mixer controller" />
       <property role="eBQts" value="Req1" />

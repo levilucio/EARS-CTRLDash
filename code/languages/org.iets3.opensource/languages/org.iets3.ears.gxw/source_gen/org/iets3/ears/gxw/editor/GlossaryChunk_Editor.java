@@ -10,11 +10,15 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import com.mbeddr.core.base.editor.HorizLineCell;
+import java.awt.Color;
 import com.mbeddr.core.base.editor.heading_StyleSheet;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
@@ -48,25 +52,68 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, 0, true);
+    style.set(StyleAttributes.DRAW_BORDER, 0, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(this.createProperty_jpgjni_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_jpgjni_b0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_jpgjni_c0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_jpgjni_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_jpgjni_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_c0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_jpgjni_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_jpgjni_e0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_jpgjni_f0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_jpgjni_f0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_jpgjni_g0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_jpgjni_h0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_jpgjni_i0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_jpgjni_h0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_i0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_jpgjni_j0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_jpgjni_k0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_jpgjni_l0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_jpgjni_m0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_jpgjni_n0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_jpgjni_o0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_jpgjni_n0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_o0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_p0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_q0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_jpgjni_r0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_s0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_jpgjni_t0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_u0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_v0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_w0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_jpgjni_x0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_y0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_jpgjni_z0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_ab0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_bb0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_cb0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_jpgjni_db0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_jpgjni_eb0(editorContext, node));
     return editorCell;
   }
-  private EditorCell createProperty_jpgjni_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_jpgjni_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createCollection_jpgjni_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_jpgjni_b0");
+    editorCell.addEditorCell(this.createConstant_jpgjni_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_jpgjni_b1a(editorContext, node));
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_a1a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Glossary for:");
+    editorCell.setCellId("Constant_jpgjni_a1a");
+    Style style = new StyleImpl();
+    {
+      Style styleToPut = new StyleImpl();
+      templateNL_StyleSheet.apply_chunkHeader(styleToPut, editorCell);
+      style.putAll(styleToPut, 0);
+    }
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createProperty_jpgjni_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -90,22 +137,44 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-  private EditorCell createConstant_jpgjni_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_jpgjni_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_jpgjni_b0");
+    editorCell.setCellId("Constant_jpgjni_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createCollection_jpgjni_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_jpgjni_c0");
-    editorCell.addEditorCell(this.createConstant_jpgjni_a2a(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_jpgjni_b2a(editorContext, node));
+  private EditorCell createCustom_jpgjni_d0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<HorizLineCell>() {
+      public HorizLineCell invoke() {
+        return new HorizLineCell(node, Color.LIGHT_GRAY, 1);
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_jpgjni_d0");
     return editorCell;
   }
-  private EditorCell createConstant_jpgjni_a2a(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_jpgjni_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_e0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createCollection_jpgjni_f0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_jpgjni_f0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.addEditorCell(this.createConstant_jpgjni_a5a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_jpgjni_b5a(editorContext, node));
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_a5a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Controller Name:");
-    editorCell.setCellId("Constant_jpgjni_a2a");
+    editorCell.setCellId("Constant_jpgjni_a5a");
     Style style = new StyleImpl();
     {
       Style styleToPut = new StyleImpl();
@@ -119,7 +188,7 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createProperty_jpgjni_b2a(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_jpgjni_b5a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("nameOfController");
     provider.setNoTargetText("<no nameOfController>");
@@ -134,124 +203,37 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-  private EditorCell createConstant_jpgjni_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_jpgjni_d0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createConstant_jpgjni_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List Of Components:");
-    editorCell.setCellId("Constant_jpgjni_e0");
-    Style style = new StyleImpl();
-    {
-      Style styleToPut = new StyleImpl();
-      heading_StyleSheet.apply_heading(styleToPut, editorCell);
-      style.putAll(styleToPut, 0);
-    }
-    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
-    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createRefNodeList_jpgjni_f0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfComponentsListHandler_jpgjni_f0(node, "listOfComponents", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_listOfComponents");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, 0, true);
-    editorCell.getStyle().putAll(style);
-    editorCell.setFoldable(true);
-    editorCell.setFoldedCell(this.createReadOnlyModelAccessor_jpgjni_a5a(editorContext, node));
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
-  }
-  private static class listOfComponentsListHandler_jpgjni_f0 extends RefNodeListHandler {
-    public listOfComponentsListHandler_jpgjni_f0(SNode ownerNode, String childRole, EditorContext context) {
-      super(ownerNode, childRole, context, false);
-    }
-    public SNode createNodeToInsert(EditorContext editorContext) {
-      SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
-    }
-    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
-      editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromNode(elementNode));
-      try {
-        EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
-        this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
-        return elementCell;
-      } finally {
-        editorContext.getCellFactory().popCellContext();
-      }
-    }
-    protected boolean isCompatibilityMode() {
-      return false;
-    }
-    public EditorCell createEmptyCell(EditorContext editorContext) {
-      editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfComponentsListHandler_jpgjni_f0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff6L, "listOfComponents")));
-      try {
-        EditorCell emptyCell = null;
-        emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
-        this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
-        return emptyCell;
-      } finally {
-        editorContext.getCellFactory().popCellContext();
-      }
-    }
-    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_jpgjni_a5a(editorContext, node);
-    }
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
-      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
-        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        if (elementNode != null) {
-          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
-          elementCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
-        }
-        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
-          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff6L, "listOfComponents"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
-        }
-      }
-    }
-    private EditorCell createConstant_jpgjni_a5a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-      editorCell.setCellId("Constant_jpgjni_a5a");
-      Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, 0, true);
-      editorCell.getStyle().putAll(style);
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-  }
-  private EditorCell createReadOnlyModelAccessor_jpgjni_a5a(final EditorContext editorContext, final SNode node) {
-    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
-      public String getText() {
-        return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff6L, "listOfComponents"))).count() + " requirements ...}";
-      }
-      public void setText(String s) {
-      }
-      public boolean isValidText(String s) {
-        return EqualUtil.equals(s, getText());
-      }
-    }, node);
-    editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
-    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
-    editorCell.setCellId("ReadOnlyModelAccessor_jpgjni_a5a");
-    return editorCell;
-  }
   private EditorCell createConstant_jpgjni_g0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_jpgjni_g0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_jpgjni_h0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List Of Sensors:");
-    editorCell.setCellId("Constant_jpgjni_h0");
+  private EditorCell createCustom_jpgjni_h0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<HorizLineCell>() {
+      public HorizLineCell invoke() {
+        return new HorizLineCell(node, Color.LIGHT_GRAY, 1);
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_jpgjni_h0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_i0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_i0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_j0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List Of Components:");
+    editorCell.setCellId("Constant_jpgjni_j0");
     Style style = new StyleImpl();
     {
       Style styleToPut = new StyleImpl();
@@ -261,122 +243,22 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
     style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
     editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-  private EditorCell createRefNodeList_jpgjni_i0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfTriggersListHandler_jpgjni_i0(node, "listOfTriggers", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_listOfTriggers");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
-    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, 0, true);
-    editorCell.getStyle().putAll(style);
-    editorCell.setFoldable(true);
-    editorCell.setFoldedCell(this.createReadOnlyModelAccessor_jpgjni_a8a(editorContext, node));
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
-  }
-  private static class listOfTriggersListHandler_jpgjni_i0 extends RefNodeListHandler {
-    public listOfTriggersListHandler_jpgjni_i0(SNode ownerNode, String childRole, EditorContext context) {
-      super(ownerNode, childRole, context, false);
-    }
-    public SNode createNodeToInsert(EditorContext editorContext) {
-      SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
-    }
-    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
-      editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromNode(elementNode));
-      try {
-        EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
-        this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
-        return elementCell;
-      } finally {
-        editorContext.getCellFactory().popCellContext();
-      }
-    }
-    protected boolean isCompatibilityMode() {
-      return false;
-    }
-    public EditorCell createEmptyCell(EditorContext editorContext) {
-      editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfTriggersListHandler_jpgjni_i0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers")));
-      try {
-        EditorCell emptyCell = null;
-        emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
-        this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
-        return emptyCell;
-      } finally {
-        editorContext.getCellFactory().popCellContext();
-      }
-    }
-    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_jpgjni_a8a(editorContext, node);
-    }
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
-      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
-        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        if (elementNode != null) {
-          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
-          elementCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
-        }
-        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
-          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
-        }
-      }
-    }
-    private EditorCell createConstant_jpgjni_a8a(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-      editorCell.setCellId("Constant_jpgjni_a8a");
-      Style style = new StyleImpl();
-      style.set(StyleAttributes.EDITABLE, 0, true);
-      editorCell.getStyle().putAll(style);
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-  }
-  private EditorCell createReadOnlyModelAccessor_jpgjni_a8a(final EditorContext editorContext, final SNode node) {
-    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
-      public String getText() {
-        return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers"))).count() + " requirements ...}";
-      }
-      public void setText(String s) {
-      }
-      public boolean isValidText(String s) {
-        return EqualUtil.equals(s, getText());
-      }
-    }, node);
-    editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
-    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
-    editorCell.setCellId("ReadOnlyModelAccessor_jpgjni_a8a");
-    return editorCell;
-  }
-  private EditorCell createConstant_jpgjni_j0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_jpgjni_j0");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createConstant_jpgjni_k0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List Of Actuators:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_jpgjni_k0");
     Style style = new StyleImpl();
-    {
-      Style styleToPut = new StyleImpl();
-      heading_StyleSheet.apply_heading(styleToPut, editorCell);
-      style.putAll(styleToPut, 0);
-    }
-    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
-    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNodeList_jpgjni_l0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfResponsesListHandler_jpgjni_l0(node, "listOfResponses", editorContext);
+    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfComponentsListHandler_jpgjni_l0(node, "listOfComponents", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_listOfResponses");
+    editorCell.setCellId("refNodeList_listOfComponents");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, 0, true);
@@ -386,8 +268,8 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class listOfResponsesListHandler_jpgjni_l0 extends RefNodeListHandler {
-    public listOfResponsesListHandler_jpgjni_l0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class listOfComponentsListHandler_jpgjni_l0 extends RefNodeListHandler {
+    public listOfComponentsListHandler_jpgjni_l0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
@@ -410,7 +292,7 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     }
     public EditorCell createEmptyCell(EditorContext editorContext) {
       editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfResponsesListHandler_jpgjni_l0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ffbL, "listOfResponses")));
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfComponentsListHandler_jpgjni_l0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff6L, "listOfComponents")));
       try {
         EditorCell emptyCell = null;
         emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
@@ -431,7 +313,7 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
-          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ffbL, "listOfResponses"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
+          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff6L, "listOfComponents"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
         }
       }
     }
@@ -448,7 +330,7 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_jpgjni_a11a(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ffbL, "listOfResponses"))).count() + " requirements ...}";
+        return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff6L, "listOfComponents"))).count() + " requirements ...}";
       }
       public void setText(String s) {
       }
@@ -467,31 +349,62 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_jpgjni_n0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List of Relations:");
-    editorCell.setCellId("Constant_jpgjni_n0");
+  private EditorCell createCustom_jpgjni_n0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<HorizLineCell>() {
+      public HorizLineCell invoke() {
+        return new HorizLineCell(node, Color.LIGHT_GRAY, 1);
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_jpgjni_n0");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_o0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_o0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
-    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createRefNodeList_jpgjni_o0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfAxiomsListHandler_jpgjni_o0(node, "listOfAxioms", editorContext);
+  private EditorCell createConstant_jpgjni_p0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List Of Sensors:");
+    editorCell.setCellId("Constant_jpgjni_p0");
+    Style style = new StyleImpl();
+    {
+      Style styleToPut = new StyleImpl();
+      heading_StyleSheet.apply_heading(styleToPut, editorCell);
+      style.putAll(styleToPut, 0);
+    }
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_q0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_q0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createRefNodeList_jpgjni_r0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfTriggersListHandler_jpgjni_r0(node, "listOfTriggers", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_listOfAxioms");
+    editorCell.setCellId("refNodeList_listOfTriggers");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, 0, true);
     editorCell.getStyle().putAll(style);
     editorCell.setFoldable(true);
-    editorCell.setFoldedCell(this.createReadOnlyModelAccessor_jpgjni_a41a(editorContext, node));
+    editorCell.setFoldedCell(this.createReadOnlyModelAccessor_jpgjni_a71a(editorContext, node));
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
-  private static class listOfAxiomsListHandler_jpgjni_o0 extends RefNodeListHandler {
-    public listOfAxiomsListHandler_jpgjni_o0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class listOfTriggersListHandler_jpgjni_r0 extends RefNodeListHandler {
+    public listOfTriggersListHandler_jpgjni_r0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
     public SNode createNodeToInsert(EditorContext editorContext) {
@@ -514,7 +427,7 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     }
     public EditorCell createEmptyCell(EditorContext editorContext) {
       editorContext.getCellFactory().pushCellContext();
-      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfAxiomsListHandler_jpgjni_o0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x16773e7879d1a85aL, "listOfAxioms")));
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfTriggersListHandler_jpgjni_r0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers")));
       try {
         EditorCell emptyCell = null;
         emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
@@ -525,7 +438,272 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
       }
     }
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_jpgjni_a41a(editorContext, node);
+      return this.createConstant_jpgjni_a71a(editorContext, node);
+    }
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
+        if (elementNode != null) {
+          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
+          elementCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
+        }
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
+          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
+        }
+      }
+    }
+    private EditorCell createConstant_jpgjni_a71a(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+      editorCell.setCellId("Constant_jpgjni_a71a");
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.EDITABLE, 0, true);
+      editorCell.getStyle().putAll(style);
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
+  }
+  private EditorCell createReadOnlyModelAccessor_jpgjni_a71a(final EditorContext editorContext, final SNode node) {
+    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
+      public String getText() {
+        return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers"))).count() + " requirements ...}";
+      }
+      public void setText(String s) {
+      }
+      public boolean isValidText(String s) {
+        return EqualUtil.equals(s, getText());
+      }
+    }, node);
+    editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
+    editorCell.setCellId("ReadOnlyModelAccessor_jpgjni_a71a");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_s0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_s0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createCustom_jpgjni_t0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<HorizLineCell>() {
+      public HorizLineCell invoke() {
+        return new HorizLineCell(node, Color.LIGHT_GRAY, 1);
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_jpgjni_t0");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_u0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_u0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_v0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List Of Actuators:");
+    editorCell.setCellId("Constant_jpgjni_v0");
+    Style style = new StyleImpl();
+    {
+      Style styleToPut = new StyleImpl();
+      heading_StyleSheet.apply_heading(styleToPut, editorCell);
+      style.putAll(styleToPut, 0);
+    }
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_w0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_w0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createRefNodeList_jpgjni_x0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfResponsesListHandler_jpgjni_x0(node, "listOfResponses", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
+    editorCell.setCellId("refNodeList_listOfResponses");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setFoldable(true);
+    editorCell.setFoldedCell(this.createReadOnlyModelAccessor_jpgjni_a32a(editorContext, node));
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+  private static class listOfResponsesListHandler_jpgjni_x0 extends RefNodeListHandler {
+    public listOfResponsesListHandler_jpgjni_x0(SNode ownerNode, String childRole, EditorContext context) {
+      super(ownerNode, childRole, context, false);
+    }
+    public SNode createNodeToInsert(EditorContext editorContext) {
+      SNode listOwner = super.getOwner();
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
+    }
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      editorContext.getCellFactory().pushCellContext();
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromNode(elementNode));
+      try {
+        EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+        this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
+        return elementCell;
+      } finally {
+        editorContext.getCellFactory().popCellContext();
+      }
+    }
+    protected boolean isCompatibilityMode() {
+      return false;
+    }
+    public EditorCell createEmptyCell(EditorContext editorContext) {
+      editorContext.getCellFactory().pushCellContext();
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfResponsesListHandler_jpgjni_x0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ffbL, "listOfResponses")));
+      try {
+        EditorCell emptyCell = null;
+        emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+        this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
+        return emptyCell;
+      } finally {
+        editorContext.getCellFactory().popCellContext();
+      }
+    }
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_jpgjni_a32a(editorContext, node);
+    }
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
+        if (elementNode != null) {
+          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
+          elementCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
+        }
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
+          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ffbL, "listOfResponses"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
+        }
+      }
+    }
+    private EditorCell createConstant_jpgjni_a32a(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+      editorCell.setCellId("Constant_jpgjni_a32a");
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.EDITABLE, 0, true);
+      editorCell.getStyle().putAll(style);
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
+  }
+  private EditorCell createReadOnlyModelAccessor_jpgjni_a32a(final EditorContext editorContext, final SNode node) {
+    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
+      public String getText() {
+        return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ffbL, "listOfResponses"))).count() + " requirements ...}";
+      }
+      public void setText(String s) {
+      }
+      public boolean isValidText(String s) {
+        return EqualUtil.equals(s, getText());
+      }
+    }, node);
+    editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
+    editorCell.setCellId("ReadOnlyModelAccessor_jpgjni_a32a");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_y0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_y0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createCustom_jpgjni_z0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<HorizLineCell>() {
+      public HorizLineCell invoke() {
+        return new HorizLineCell(node, Color.LIGHT_GRAY, 1);
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_jpgjni_z0");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_ab0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_ab0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_bb0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "List of Relations:");
+    editorCell.setCellId("Constant_jpgjni_bb0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD_ITALIC);
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.darkGray));
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_cb0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_cb0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createRefNodeList_jpgjni_db0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new GlossaryChunk_Editor.listOfAxiomsListHandler_jpgjni_db0(node, "listOfAxioms", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
+    editorCell.setCellId("refNodeList_listOfAxioms");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, 0, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, 0, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setFoldable(true);
+    editorCell.setFoldedCell(this.createReadOnlyModelAccessor_jpgjni_a92a(editorContext, node));
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+  private static class listOfAxiomsListHandler_jpgjni_db0 extends RefNodeListHandler {
+    public listOfAxiomsListHandler_jpgjni_db0(SNode ownerNode, String childRole, EditorContext context) {
+      super(ownerNode, childRole, context, false);
+    }
+    public SNode createNodeToInsert(EditorContext editorContext) {
+      SNode listOwner = super.getOwner();
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
+    }
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      editorContext.getCellFactory().pushCellContext();
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromNode(elementNode));
+      try {
+        EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+        this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
+        return elementCell;
+      } finally {
+        editorContext.getCellFactory().popCellContext();
+      }
+    }
+    protected boolean isCompatibilityMode() {
+      return false;
+    }
+    public EditorCell createEmptyCell(EditorContext editorContext) {
+      editorContext.getCellFactory().pushCellContext();
+      editorContext.getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(listOfAxiomsListHandler_jpgjni_db0.this.getOwner(), MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x16773e7879d1a85aL, "listOfAxioms")));
+      try {
+        EditorCell emptyCell = null;
+        emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+        this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
+        return emptyCell;
+      } finally {
+        editorContext.getCellFactory().popCellContext();
+      }
+    }
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_jpgjni_a92a(editorContext, node);
     }
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
@@ -539,9 +717,9 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
         }
       }
     }
-    private EditorCell createConstant_jpgjni_a41a(EditorContext editorContext, SNode node) {
+    private EditorCell createConstant_jpgjni_a92a(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-      editorCell.setCellId("Constant_jpgjni_a41a");
+      editorCell.setCellId("Constant_jpgjni_a92a");
       Style style = new StyleImpl();
       style.set(StyleAttributes.EDITABLE, 0, true);
       editorCell.getStyle().putAll(style);
@@ -549,7 +727,7 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
       return editorCell;
     }
   }
-  private EditorCell createReadOnlyModelAccessor_jpgjni_a41a(final EditorContext editorContext, final SNode node) {
+  private EditorCell createReadOnlyModelAccessor_jpgjni_a92a(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
         return "{... " + ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x7731a166da1f472eL, 0xa40a2283f5e47dc5L, 0x1dfca649d8e7ff3L, 0x1dfca649d8e7ff4L, "listOfTriggers"))).count() + " requirements ...}";
@@ -562,7 +740,13 @@ public class GlossaryChunk_Editor extends DefaultNodeEditor {
     }, node);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
     editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
-    editorCell.setCellId("ReadOnlyModelAccessor_jpgjni_a41a");
+    editorCell.setCellId("ReadOnlyModelAccessor_jpgjni_a92a");
+    return editorCell;
+  }
+  private EditorCell createConstant_jpgjni_eb0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_jpgjni_eb0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 }

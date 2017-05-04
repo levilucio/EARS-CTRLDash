@@ -79,7 +79,7 @@
     </language>
   </registry>
   <node concept="2skrmn" id="7R851$_ioKx">
-    <property role="TrG5h" value="Glossary for Quiz Controller" />
+    <property role="TrG5h" value="Quiz Controller" />
     <property role="$xNHY" value="Quiz Controller" />
     <node concept="2uIZ38" id="7R851$_ioLa" role="2skrmi">
       <property role="TrG5h" value="indicator pupil" />
@@ -177,7 +177,7 @@
   </node>
   <node concept="OJ2fN" id="7R851$_ioKy">
     <property role="TrG5h" value="Requirement for Quiz Controller" />
-    <ref role="9DKRw" node="7R851$_ioKx" resolve="Glossary for Quiz Controller" />
+    <ref role="9DKRw" node="7R851$_ioKx" resolve="Quiz Controller" />
     <node concept="1cwdkO" id="7R851$_ioLe" role="OJ2fO">
       <property role="eBQts" value="req1" />
       <property role="1hs7$j" value="quiz controller" />

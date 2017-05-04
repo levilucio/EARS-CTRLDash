@@ -80,7 +80,7 @@
       <property role="TrG5h" value="GlossaryNotCreated" />
       <property role="2O1_EJ" value="true" />
       <node concept="ulk8C" id="5lB8QV$iomD" role="ulkQE">
-        <property role="fwOFb" value="Glossary is not present for the project. Please create a new glossary" />
+        <property role="fwOFb" value="Glossary is not present for the project. Click here to create a new glossary" />
       </node>
       <node concept="aRPxe" id="5lB8QV$ionB" role="um_Ly">
         <node concept="3x7ZJP" id="5lB8QV$ionG" role="1y4i0q">
@@ -150,7 +150,7 @@
     <node concept="ulkQJ" id="5lB8QV$pr6d" role="ulkQK">
       <property role="TrG5h" value="Check for glossary completenesss" />
       <node concept="2O1dW8" id="p7uByp7_PM" role="2O1dWi">
-        <ref role="2O1dWf" node="p7uByp7_ED" resolve="requirement not realizable with uncovered glossary terms" />
+        <ref role="2O1dWf" node="p7uByp7_ED" resolve="Requirement not realizable with uncovered glossary terms" />
       </node>
       <node concept="2O1dW8" id="4MKUcPm57GA" role="2O1dWi">
         <ref role="2O1dWf" node="4MKUcPlS$4d" resolve="Requirement realizable with uncovered glossary terms" />
@@ -159,7 +159,7 @@
         <ref role="2O1dWf" node="4MKUcPmvBvI" resolve="Requirement not realizable with covered glossary terms" />
       </node>
       <node concept="ulk8C" id="5lB8QV$pr6e" role="ulkQE">
-        <property role="fwOFb" value="create requirement chunk file" />
+        <property role="fwOFb" value="You can now start adding EARS requirements. Click here to create a requirements holder" />
       </node>
       <node concept="aRPxN" id="5lB8QV$yXTY" role="um_Ly">
         <node concept="3x7ZJP" id="5lB8QV$yXU5" role="1y4i0j">
@@ -298,7 +298,7 @@
       </node>
     </node>
     <node concept="ulkQJ" id="p7uByp7_ED" role="ulkQK">
-      <property role="TrG5h" value="requirement not realizable with uncovered glossary terms" />
+      <property role="TrG5h" value="Requirement not realizable with uncovered glossary terms" />
       <node concept="2O1dW8" id="p7uByp7BD4" role="2O1dWi">
         <ref role="2O1dWf" node="p7uByp4_Y6" resolve="Requirement realizable with covered glossary terms" />
       </node>
