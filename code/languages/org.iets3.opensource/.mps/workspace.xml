@@ -6,56 +6,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3830bde-ea0f-44dd-ac09-ebf685d11757" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/F.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/GXW-Req.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/GxwGlossary1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/GWXGateDescrp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/GXWController.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/D.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/F.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/IconContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/IconContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/IconContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/IconContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/ContainerFusingUpdated/Liquid Mixer..txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/MotorOperation/Motor Operation..txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/SlidingDoors/Automatic Door..txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/classes_gen/org/iets3/ears/gxw/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/classes_gen/org/iets3/ears/gxw/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/structure/ConceptPresentationAspectImpl.class" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/structure/ConceptPresentationAspectImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/structure.mps" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/models/org/iets3/process/core/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/generated" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/structure/dependencies" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/structure/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/structure/generated" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen.caches/org/iets3/process/core/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/trace.info" afterPath="$PROJECT_DIR$/languages/ConstratintsDescriptor/source_gen/org/iets3/process/core/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/classes_gen/org/iets3/ears/gxw/structure/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/classes_gen/org/iets3/ears/gxw/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/org.iets3.ears.gxw.mpl" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/org.iets3.ears.gxw.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/org/iets3/ears/gxw/structure.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/org/iets3/ears/gxw/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen.caches/org/iets3/ears/gxw/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen.caches/org/iets3/ears/gxw/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen.caches/org/iets3/ears/gxw/structure/dependencies" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen.caches/org/iets3/ears/gxw/structure/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen.caches/org/iets3/ears/gxw/structure/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen.caches/org/iets3/ears/gxw/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.ears.gxw/source_gen/org/iets3/ears/gxw/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/structure/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/classes_gen/org/iets3/graphicalLustre/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/models/org/iets3/graphicalLustre/structure.mps" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/models/org/iets3/graphicalLustre/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/structure/dependencies" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/structure/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/structure/generated" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen.caches/org/iets3/graphicalLustre/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/trace.info" afterPath="$PROJECT_DIR$/languages/org.iets3.lustre/source_gen/org/iets3/graphicalLustre/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/models/FlowModel.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/FlowModel.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/structure.mps" afterPath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/process/dashboard/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/FlowModel/generated" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/FlowModel/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/generated" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/structure/dependencies" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/structure/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/structure/generated" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/process/dashboard/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/ConceptPresentationAspectImpl.java" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/ConceptPresentationAspectImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/trace.info" afterPath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/process/dashboard/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/classes_gen/org/iets3/ears/gxw/examples/QuizController/Requirement for Quiz Controller..txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/classes_gen/org/iets3/ears/gxw/examples/QuizController/Requirement for Quiz Controller..txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/QuizController/Requirement for Quiz Controller..txt" afterPath="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/source_gen/org/iets3/ears/gxw/examples/QuizController/Requirement for Quiz Controller..txt" />
-    </list>
+    <list default="true" id="e3830bde-ea0f-44dd-ac09-ebf685d11757" name="Default" comment="" />
     <ignored path="org.iets3.opensource.iws" />
     <ignored path=".mps/workspace.xml" />
     <ignored path="$PROJECT_DIR$/languages/PropertyLanguage/classes_gen/" />
@@ -497,6 +448,70 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gxw" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gxw" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gxw" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gxw" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:435c1bc7-43dd-464f-9ffc-4bf7fb97e067(org.iets3.ears.gxw.examples.SlidingDoors) in IdeaFile{file:///home/saad/EARS-CTRLDash/code/languages/org.iets3.opensource/solutions/org.iets3.ears.gxw.examples/models/org/iets3/ears/gxw/examples/SlidingDoors.mps}" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
